@@ -1,0 +1,75 @@
+header, footer {
+    background-color: #6474FF;
+}
+header {
+    height: 100px;
+    padding: 20px 20px;
+}
+footer{
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEF0F1;
+}
+.log {
+    background-color: #FFC000;
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    width: 75px;
+    padding: 7px 7px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.intro {
+    width: 45%;
+    height: 200px;
+    background-color: white;
+    margin: -80px auto;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+}
+.ap {
+    height: 60px;
+    padding: 2px;
+    background-color: #6474FF;
+    border-radius: 50%;
+}
+.info {
+    margin: 100px auto;
+    text-align: center;
+    width: 100%;
+}
+.info_in {
+    background-color: white;
+    height: 300px;
+    width: 100px;
+    padding: 30px 20px;
+    margin: 0 25px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 7px;
+}
+.h2 {
+    font-size: 15px;
+}
+ul{
+    text-align: left;
+    padding-left: 20px;
+    
+}
+.h2f{
+    font-size: 15px;
+    color: white;
+}
+.links{
+    color: white;
+    margin: 0 10px;
+    font-style: italic;
+}
