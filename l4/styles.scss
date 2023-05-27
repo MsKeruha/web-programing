@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap');
+
+$dark-color: rgb(36,41,66);
+$white-color: white;
+$red: rgb(255,92,92);
+$grey: rgb(238,243,246);
+$lightgrey: rgb(208,212,216);
+$darkgrey: rgb(91,95,113);
+$font: "Barlow Condensed";
+*{
+    margin: 0;
+    font-family: "Barlow";
+}
+body{
+    display: flex;
+}
+.first{
+    width: 50%;
+    & .wrapper{
+        margin-top: 75px;
+        margin-left: 175px;
+    }
+    .logo{
+        display: block;
+    }
+    .pwrapper{
+        display: flex;
+        margin-top: 100px;
+    }
+    .new{
+        height: 30px;
+        width: 50px;
+        line-height: 30px;
+        border-radius: 15px;
+        color: $white-color;
+        background-color: $dark-color;
+        font-family: $font;
+        text-align: center;
+        font-weight: 600;
+    }
+    .mono{
+        color: $dark-color;
+        font-family: $font;
+        letter-spacing: 5px;
+        line-height: 30px;
+        margin-left: 20px;
+    }
+    .insights{
+        color: $dark-color;
+        font-family: $font;
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 55px;
+    }
+    .agile{
+        margin-top: 50px;
+    }
+    .bottom{
+        display: flex;
+        margin-top: 50px;
+        & p{
+            color: $dark-color;
+            font-family: $font;
+            letter-spacing: 5px;
+            line-height: 50px;
+            margin-left: 40px;
+        }
+    }
+    .schedule{
+        background-color: $red;
+        color: $white-color;
+        text-decoration: none;
+        font-family: $font;
+        font-weight: 600;
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+        width: 185px;
+        text-align: center;
+        letter-spacing: 2px;
+        border-radius: 10px;
+    }
+}
+.second{
+    width: 50%;
+    .wrapper{
+        width: 100%;
+        border-top: 1px solid $grey;
+        overflow-x: hidden;
+        .back{
+            background-color: $grey;
+            height: 500px;
+            width: 50%;
+            z-index: -1;
+            border-radius: 0 0 0 100px;
+            position: absolute;
+        }
+        & img{
+            margin-top: 110px;
+            
+        }
+    }
+    .round{
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        background-color: $lightgrey;
+        border-radius: 50%;
+    }
+    & ul{
+        margin-top: 75px;
+        padding: 0;
+        margin-left: 150px;
+        & li{
+            display: inline;
+            margin-left: 25px;
+            & a{
+                color: $dark-color;
+                font-family: $font;
+                font-weight: 600;
+                text-decoration: none;
+            }
+            
+        }
+        & li:last-child{
+            color: $darkgrey;
+        }
+    }
+}

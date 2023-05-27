@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  font-family: "Barlow";
+}
+
+body {
+  display: flex;
+}
+
+.first {
+  width: 50%;
+}
+.first .wrapper {
+  margin-top: 75px;
+  margin-left: 175px;
+}
+.first .logo {
+  display: block;
+}
+.first .pwrapper {
+  display: flex;
+  margin-top: 100px;
+}
+.first .new {
+  height: 30px;
+  width: 50px;
+  line-height: 30px;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(36, 41, 66);
+  font-family: "Barlow Condensed";
+  text-align: center;
+  font-weight: 600;
+}
+.first .mono {
+  color: rgb(36, 41, 66);
+  font-family: "Barlow Condensed";
+  letter-spacing: 5px;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.first .insights {
+  color: rgb(36, 41, 66);
+  font-family: "Barlow Condensed";
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 55px;
+}
+.first .agile {
+  margin-top: 50px;
+}
+.first .bottom {
+  display: flex;
+  margin-top: 50px;
+}
+.first .bottom p {
+  color: rgb(36, 41, 66);
+  font-family: "Barlow Condensed";
+  letter-spacing: 5px;
+  line-height: 50px;
+  margin-left: 40px;
+}
+.first .schedule {
+  background-color: rgb(255, 92, 92);
+  color: white;
+  text-decoration: none;
+  font-family: "Barlow Condensed";
+  font-weight: 600;
+  height: 50px;
+  line-height: 50px;
+  font-size: 12px;
+  width: 185px;
+  text-align: center;
+  letter-spacing: 2px;
+  border-radius: 10px;
+}
+
+.second {
+  width: 50%;
+}
+.second .wrapper {
+  width: 100%;
+  border-top: 1px solid rgb(238, 243, 246);
+  overflow-x: hidden;
+}
+.second .wrapper .back {
+  background-color: rgb(238, 243, 246);
+  height: 500px;
+  width: 50%;
+  z-index: -1;
+  border-radius: 0 0 0 100px;
+  position: absolute;
+}
+.second .wrapper img {
+  margin-top: 110px;
+}
+.second .round {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(208, 212, 216);
+  border-radius: 50%;
+}
+.second ul {
+  margin-top: 75px;
+  padding: 0;
+  margin-left: 150px;
+}
+.second ul li {
+  display: inline;
+  margin-left: 25px;
+}
+.second ul li a {
+  color: rgb(36, 41, 66);
+  font-family: "Barlow Condensed";
+  font-weight: 600;
+  text-decoration: none;
+}
+.second ul li:last-child {
+  color: rgb(91, 95, 113);
+}/*# sourceMappingURL=styles.css.map */
